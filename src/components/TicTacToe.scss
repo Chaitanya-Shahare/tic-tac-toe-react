@@ -1,0 +1,9 @@
+.board {
+  display: grid;
+  width: calc(50px * 3);
+  height: calc(50px * 3);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 1rem;
+}
